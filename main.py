@@ -13,7 +13,7 @@ CLAUDE_API_KEY = os.environ["CLAUDE_API_KEY"]
 MEM0_API_KEY   = os.environ["MEM0_API_KEY"]
 
 TORONTO    = pytz.timezone("America/Toronto")
-USER_ID    = "discordbot"
+USER_ID    = "dora"
 
 claude     = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 mem_client = MemoryClient(api_key=MEM0_API_KEY)
